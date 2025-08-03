@@ -17,7 +17,7 @@ export default function Todo() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-start p-6 ovrerflow-y-auto">
+    <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-start p-6 overflow-y-auto mb-16">
       <h1 className="text-3xl font-bold mb-6">📝 To-Do App</h1>
 
       {/* Input box and Add Task  */}
@@ -26,12 +26,12 @@ export default function Todo() {
           type="text"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Add new task"
-          className="flex-1 px-4 py-2 rounded border border-gray-300 rounded-l-full"
+          placeholder="Add new task...."
+          className="flex-1 px-4 py-3 rounded border border-gray-300 rounded-l-full"
         />
         <button
           onClick={handleAdd}
-          className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded rounded-r-full"
+          className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-2 rounded rounded-r-full"
         >
           Add
         </button>
