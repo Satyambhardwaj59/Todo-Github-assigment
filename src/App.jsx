@@ -7,6 +7,7 @@ import Footer from './componentes/Footer';
 import Home from './componentes/Home';
 import { Provider } from "react-redux";
 import store from './utils/appStore';
+import ShimmerUI from './componentes/ShimmerUI';
 
 const App = () => {
   return (
@@ -17,6 +18,8 @@ const App = () => {
           <Navbar />
           <Routes>
             <Route path='/' element={<Home />} />
+            <Route path='/' element={<ShimmerUI />} />
+
             <Route path='/todo' element={<Todo />} />
             <Route path='/github' element={<Github />} />
           </Routes>

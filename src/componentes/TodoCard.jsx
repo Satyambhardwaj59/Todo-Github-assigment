@@ -8,7 +8,7 @@ const TodoCard = ({todo}) => {
   return (
     <div className='border p-4 rounded mb-4'>
       <li
-            key={todo.id}
+            
             className="flex justify-between items-center bg-white shadow-md p-3 rounded"
           >
             <span

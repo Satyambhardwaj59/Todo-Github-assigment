@@ -16,6 +16,8 @@ export default function Todo() {
     }
   };
 
+  
+
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-start p-6 overflow-y-auto mb-16">
       <h1 className="text-3xl font-bold mb-6">📝 To-Do App</h1>
@@ -41,9 +43,11 @@ export default function Todo() {
 
       <ul className="w-full max-w-md space-y-3">
         {[...todos].reverse().map((items) => (
-          <TodoCard todo={items} />
+          <TodoCard key={items.id} todo={items} />
         ))}
       </ul>
     </div>
   );
 }
+
+

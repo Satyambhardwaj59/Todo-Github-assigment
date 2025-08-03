@@ -5,7 +5,11 @@ const Navbar = () => {
   return (
     <>
       <div className='h-16 w-[100%] bg-gray-800 text-white'>
-        <h1 className='text-center py-4 text-xl'><Link to="/">My App</Link></h1>
+        <ul className='flex justify-center space-x-6'>
+          <li className='text-center py-4 text-xl'><Link to="/">Home</Link></li>
+          <li className='text-center py-4 text-xl'><Link to="/todo">Todo</Link></li>
+          <li className='text-center py-4 text-xl'><Link to="/github">Github</Link></li>
+        </ul>
       </div>
     </>
   )
