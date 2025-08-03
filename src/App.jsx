@@ -5,19 +5,24 @@ import Todo from './pages/Todo';
 import Github from './pages/Github';
 import Footer from './componentes/Footer';
 import Home from './componentes/Home';
+import { Provider } from "react-redux";
+import store from './utils/appStore';
 
 const App = () => {
   return (
-    <div className='mx-4'>
-      <ToastContainer />
-      <Navbar/>
-      <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/todo' element={<Todo/>} />
-        <Route path='/github' element={<Github/>} />
-      </Routes>
-      <Footer/>
-
+    <div>
+      <Provider store={store}>
+        
+          <ToastContainer />
+          <Navbar />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/todo' element={<Todo />} />
+            <Route path='/github' element={<Github />} />
+          </Routes>
+          <Footer />
+       
+      </Provider>
     </div>
   )
 }
