@@ -21,9 +21,9 @@ const TodoCard = ({todo}) => {
             </span>
             <button
               onClick={() => dispatch(deleteTodo(todo.id))}
-              className="text-red-500 hover:text-red-700 ml-4"
+              className="text-red-500 hover:text-red-700 hover:cursor-pointer ml-4"
             >
-              ❌
+             Delete
             </button>
           </li>
     </div>

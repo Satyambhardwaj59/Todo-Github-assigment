@@ -1,7 +1,6 @@
 import React from 'react';
 
 const GithubCard = ({data}) => {
-    console.log(data);
 
     const { avatar_url, name, location, followers, public_repos, bio } = data || {};
 

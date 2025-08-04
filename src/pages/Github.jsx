@@ -100,8 +100,8 @@ const Github = () => {
   };
 
   return (
-    <div className="p-4 min-h-screen bg-gray-100 flex flex-col items-center">
-      <h1 className="text-3xl mt-10 mb-6 font-bold text-center">
+    <div className="p-4 min-h-screen bg-gradient-to-r from-indigo-100 via-purple-100 to-pink-100 flex flex-col items-center">
+      <h1 className="text-3xl my-6 font-bold text-center">
         Get GitHub Info with <span className="text-orange-500">Your UserId</span>
       </h1>
 

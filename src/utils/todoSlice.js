@@ -3,9 +3,9 @@ import { createSlice } from "@reduxjs/toolkit";
 const todoSlice = createSlice({
   name: "todos",
   initialState: [
-    { id: 1, text: "Complete Redux Toolkit To-Do App", completed: false },
-    { id: 2, text: "Review Tailwind CSS utilities", completed: true },
-    { id: 3, text: "Apply for MERN Stack jobs", completed: false },
+    { id: 1, text: "Update task tracker and share daily progress.", completed: false },
+    { id: 2, text: "Work on assigned modules and push code regularly.", completed: true },
+    { id: 3, text: "Learn and improve project-related skills.", completed: false },
   ],
   reducers: {
     addTodo: (state, action) => {
