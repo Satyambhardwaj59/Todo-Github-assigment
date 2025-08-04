@@ -28,32 +28,34 @@ Thank you for the opportunity to complete this assignment. Below are the setup i
 
 ## 📁 Folder Structure 
 
- - public/                 
- - src/
- -  components/          
- -    Body.jsx
- -    ErrorCard.jsx
- -    Footer.jsx
- -    GithubCard.jsx
- -    Navbar.jsx
- -    ShimmerUI.jsx
- -    TodoCard.jsx
- -  pages/               
- -   Todo.jsx
- -   Github.jsx              
- -  utils/               
- -   appStore.js
- -   todoSlice.js
- -  App.jsx               
- -  main.jsx
- -  index.css             
- - .gitignore 
- - eslint.config.js
- - index.html
- - package-lock.json                     
- - package.json             
- -  README.md
- - vite.config.js                
+```txt
+├── public/                 
+├── src/
+│   ├── components/          
+│   │   ├── Body.jsx  
+│   │   ├── ErrorCard.jsx  
+│   │   ├── Footer.jsx  
+│   │   ├── GithubCard.jsx  
+│   │   ├── Navbar.jsx  
+│   │   ├── ShimmerUI.jsx  
+│   │   └── TodoCard.jsx  
+│   ├── pages/               
+│   │   ├── Todo.jsx  
+│   │   └── Github.jsx  
+│   ├── utils/               
+│   │   ├── appStore.js  
+│   │   └── todoSlice.js  
+│   ├── App.jsx  
+│   ├── main.jsx  
+│   └── index.css  
+├── .gitignore  
+├── eslint.config.js  
+├── index.html  
+├── package-lock.json  
+├── package.json  
+├── README.md  
+└── vite.config.js  
+```
 
 ## 📬 Contact
  - Portfolio: https://portfolio-git-main-satyam-kumars-projects-4080f490.vercel.app
