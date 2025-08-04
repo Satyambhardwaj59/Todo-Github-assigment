@@ -5,17 +5,22 @@ Thank you for the opportunity to complete this assignment. Below are the setup i
 ---
 
 ## 🚀 Setup Instructions
-
- - npm install
- - npm run dev
-
+```txt
+  npm install
+```
+```txt  
+  npm run dev
+```
  ### Local Link
-
- - Click given link ex- http://localhost:5173
+```txt
+  http://localhost:5173
+ ``` 
 
  ## 🌐 Production Link - 
 
- - 
+ ```txt
+ https://frontend-internship-assigment-satyam-kumars-projects-4080f490.vercel.app/
+ ```
 
 ## ⚙️ Technologies used -
 
