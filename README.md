@@ -66,3 +66,5 @@ Thank you for the opportunity to complete this assignment. Below are the setup i
  - Portfolio: https://portfolio-git-main-satyam-kumars-projects-4080f490.vercel.app
  - GitHub: https://github.com/Satyambhardwaj59
  - LinkedIn: https://www.linkedin.com/in/satyam-kumar-297a3b27b/
+ - Email: satyambhardwaj59@gmail.com
+ - Mobile: +91 7488499849
